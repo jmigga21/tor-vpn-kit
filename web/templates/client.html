@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head><title>{{ client }}</title></head>
+<body>
+  <h1>Конфиг для {{ client }}</h1>
+  <pre>{{ config }}</pre>
+  <h2>QR-код</h2>
+  <img src="{{ qr_path }}" alt="QR code">
+  <br>
+  <a href="{{ url_for('download', client=client) }}">Скачать .conf</a>
+</body>
+</html>

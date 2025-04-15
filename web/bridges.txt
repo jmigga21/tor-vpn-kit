@@ -1,0 +1,2 @@
+# Пример obfs4 мостов (замени своими с BridgeDB)
+Bridge obfs4 1.2.3.4:12345 0123456789ABCDEF cert=XXXXX iat-mode=0

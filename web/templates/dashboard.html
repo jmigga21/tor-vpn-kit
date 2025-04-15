@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head><title>Dashboard</title></head>
+<body>
+  <h1>Список клиентов</h1>
+  <ul>
+  {% for client in clients %}
+    <li><a href="{{ url_for('client', client=client) }}">{{ client }}</a></li>
+  {% endfor %}
+  </ul>
+</body>
+</html>
